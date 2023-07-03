@@ -1,0 +1,91 @@
+.leftnav {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnav {
+position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.signin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  justify-content: space-between;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1rem;
+  /* border: 1px solid black; */
+}
+.searchbar input {
+  border: none;
+}
+.search > FontAwesomeIcon {
+  border: 1px solid black;
+}
+
+.sicon {
+  border: 1px solid black;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search {
+    font-size: 1rem;
+    padding-left: .5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 30rem;
+  height: 2.3rem;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.signin button{
+    background-color: transparent;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: .5rem;
+    height: 2.5rem;
+    width: 5.5rem;
+}
+#mic{
+    height: 2.3rem;
+    width: 2.3rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
