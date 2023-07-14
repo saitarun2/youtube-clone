@@ -1,0 +1,63 @@
+.leftnavbar{
+    /* flex:0.2; */
+    padding-top: 4rem;
+    width: 13%;
+    height: 95%;
+    scroll-behavior: smooth;
+    position: fixed;
+    top: 0;
+    z-index: -9;
+    overflow-y: scroll;
+    padding-left: .5rem;
+    background-color: white;
+}
+
+.leftnavbar::-webkit-scrollbar{
+    display: none;
+}
+
+
+.leftnavbar button{
+    z-index: 50;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 100%;
+}
+
+.leftnavbar button:hover{
+    padding: .5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: snow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.home,.library,.explore,.more,.settings,.footer{
+    display: flex;
+    flex-direction: column;
+}
+.bottom p{
+    color: grey;
+}
+
+.explore h6{
+    margin: .3rem;
+}
+
+.collapsed{
+    color: red;
+}
+.burger{
+    position: sticky;
+    border: 1px solid black;
+}

@@ -3,7 +3,12 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  background-color: white;
+  z-index: inherit;
+  flex-wrap: wrap;
 }
+
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -18,8 +23,15 @@ position: fixed;
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  z-index: 9;
+  background-color: white;
 }
 
+.leftnav button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 .signin {
   display: flex;
   flex-direction: row;
@@ -30,6 +42,7 @@ position: fixed;
 }
 
 .searchbar {
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
